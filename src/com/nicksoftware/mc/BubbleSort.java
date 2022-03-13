@@ -1,5 +1,9 @@
 package com.nicksoftware.mc;
 
+/**
+ * Bubble sort algorithm
+ * Complexity : 0(n^2)
+ */
 public class BubbleSort extends Sortable {
 
     @Override
