@@ -1,6 +1,5 @@
 package com.nicksoftware.mc;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Main {
@@ -9,7 +8,7 @@ public class Main {
         // write your code here
         int[] numbers = { 13, 4, 2, 15, 6, 1, 4 };
 
-        var sorter = new BubbleSort();
+        var sorter = new SelectionSort();
         sorter.sort(numbers);
         System.out.println(Arrays.toString(numbers));
     }
